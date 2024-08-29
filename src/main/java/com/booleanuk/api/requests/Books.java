@@ -54,7 +54,6 @@ public class Books {
             if (b.getId() == id) {
                 books.remove(b);
                 return b;
-
             }
         }
         return null;
